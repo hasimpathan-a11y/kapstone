@@ -803,7 +803,7 @@ h2.section-title.mb-4{
   }
   
   .tech-project-card {
-    height: 200px;
+    height: max-content;
     border-radius: var(--border-radius-sm);
   }
   
