@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, button, strong {
 
 .tech-project-card {
   position: relative;
-  height: 394.6672px;
+  height: max-content;
   border-radius: var(--border-radius-lg);
   overflow: hidden;
   background: #444;
@@ -818,7 +818,7 @@ h2.section-title.mb-4{
   }
   
   .tech-project-card {
-    height: 200px;
+    height: max-content;
     border-radius: var(--border-radius-sm);
   }
   
@@ -2119,7 +2119,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* padding-bottom: 24px; */
+  padding-bottom: 24px;
   align-self: flex-start ;
 }
 
