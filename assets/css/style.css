@@ -380,12 +380,12 @@ h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, button, strong {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
   color: var(--color-white);
   padding: var(--spacing-sm);
   text-align: center;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
 }
 
 /* ===== TECH PROJECTS SECTION ===== */
@@ -791,6 +791,7 @@ h2.section-title.mb-4{
   .industry-card-label {
     font-size: var(--font-size-xs);
     padding: 2px var(--spacing-sm);
+    line-height: var(--line-height-xs);
   }
   
   .content-description {
