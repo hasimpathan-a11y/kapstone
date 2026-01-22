@@ -1908,6 +1908,12 @@ button:focus {
     width: 24px;
     height: 24px;
   }
+
+  .founders-hero{
+    margin-bottom: 32px;
+  }
+
+
 }
 
 /* ===== TECH PROJECTS PAGE STYLES ===== */
