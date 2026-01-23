@@ -2791,3 +2791,19 @@ button:focus {
     font-weight: var(--font-weight-medium);
   }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1250px) {
+  .container-custom {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px !important;
+  }
+  .hero-section{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
