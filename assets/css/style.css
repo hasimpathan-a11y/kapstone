@@ -450,11 +450,21 @@ h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, button, strong {
   color: var(--color-black-100);
   margin-bottom: var(--spacing-lg);
 }
-
+/* 
 .project-logo {
     height: 100px;
     width: 174px;
     object-fit: contain;
+} */
+.micedeck-logo{
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+.nexttrip-logo{
+  height: 40px;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* ===== USPs SECTION ===== */
@@ -2093,10 +2103,10 @@ button:focus {
   width: auto;
   object-fit: cover;
 }
-
+/* 
 .tech-project-img {
   height: 40px;
-}
+} */
 
 .tech-project-img-full-width .project-logo{
   width: 100%;
