@@ -372,11 +372,21 @@ strong {
   margin-bottom: 0px;
 }
 
+.hero-image-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(144, 25, 124, 0.4) 0%, rgba(51, 44, 109, 0.4) 100%);
+  mix-blend-mode: color;
+  pointer-events: none;
+}
+
 .hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: linear-gradient(rgba(144, 25, 124, 0.4), rgba(51, 44, 109, 0.4));
 }
 
 .hero-overlay-text {
@@ -387,6 +397,7 @@ strong {
   font-size: var(--font-size-3xl);
   line-height: var(--line-height-3xl);
   text-align: center;
+  z-index: 1;
 }
 
 /* ===== CONTENT SECTIONS ===== */
