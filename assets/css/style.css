@@ -1877,7 +1877,9 @@ strong {
     gap: 8px;
     overflow-x: auto;
     padding-bottom: 0px;
-    width: calc(100% + 20px);
+    /* width: calc(100% + 20px); */
+    padding-inline: 16px;
+    margin-inline: -16px;
   }
 
   .infra-card {
