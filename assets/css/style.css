@@ -1476,6 +1476,8 @@ strong {
     gap: 8px;
     overflow-x: auto;
     padding-bottom: 0px;
+    padding-inline: 16px;
+    margin-inline: -16px;
   }
 
   .services-section {
